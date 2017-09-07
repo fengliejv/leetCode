@@ -1,7 +1,2 @@
 # tesy
-hehehehhhahfldsah
-
-hahahhaha
-
-
-fsaasfa
+it is a project for recording leetcode practice
