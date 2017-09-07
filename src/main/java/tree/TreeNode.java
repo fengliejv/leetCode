@@ -1,4 +1,4 @@
-package mergetwobinarytrees617;
+package tree;
 
 /**
  * Created by fengliejv on 2017/9/6.

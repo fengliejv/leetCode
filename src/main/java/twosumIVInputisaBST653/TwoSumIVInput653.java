@@ -1,7 +1,5 @@
 package twosumIVInputisaBST653;
 
-import mergetwobinarytrees617.TreeNode;
-
 /**
  * Created by fengliejv on 2017/9/7.
  */

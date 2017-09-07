@@ -1,6 +1,6 @@
-package constructstringfrombinarytree;
+package String;
 
-import mergetwobinarytrees617.TreeNode;
+import tree.TreeNode;
 
 /**
  * Created by fengliejv on 2017/9/7.
