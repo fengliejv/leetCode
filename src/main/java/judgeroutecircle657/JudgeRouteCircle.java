@@ -1,3 +1,5 @@
+package judgeroutecircle657;
+
 import java.util.HashMap;
 
 /**
@@ -43,7 +45,7 @@ public class JudgeRouteCircle {
         }
     }
     public static void main(String[] args) {
-//        JudgeRouteCircle jr = new JudgeRouteCircle();
+//        judgeroutecircle657.JudgeRouteCircle jr = new judgeroutecircle657.JudgeRouteCircle();
 //        Solution solution = jr.new Solution();
 //        System.out.println(solution.judgeCircle("LL"));
         System.out.println(new JudgeRouteCircle().new Solution().judgeCircle("LL"));
