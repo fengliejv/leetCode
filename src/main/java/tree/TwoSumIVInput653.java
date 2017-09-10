@@ -1,4 +1,4 @@
-package twosumIVInputisaBST653;
+package tree;
 
 import tree.TreeNode;
 
