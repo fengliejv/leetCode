@@ -20,10 +20,7 @@ public class TwoSumIVInput653 {
             }
             hashMap.put(root.val,true);
             return  findTarget(root.left,k)||findTarget(root.right,k);
-
-
         }
-
     }
 //
 //    public static void main(String[] args) {
