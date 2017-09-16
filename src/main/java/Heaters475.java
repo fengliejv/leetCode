@@ -7,7 +7,7 @@ import java.util.Arrays;
 /*binary search nlgn complex
 * */
 public class Heaters475 {
-    //todo sth wrong exit
+
     class Solution {
 
         public int findRadius(int[] houses, int[] heaters) {
