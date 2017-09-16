@@ -5,13 +5,13 @@ package tree;
  */
 //todo
 public class SubtreeofAnotherTree572 {
-    public boolean isSubtree(TreeNode s, TreeNode t) {
-
-        return false;
-    }
-    public void search(TreeNode s,TreeNode t){
-
-    }
+//    public boolean isSubtree(TreeNode s, TreeNode t) {
+//        if()
+//        return false;
+//    }
+//    public void search(TreeNode s,TreeNode t){
+//
+//    }
 
 
 }
