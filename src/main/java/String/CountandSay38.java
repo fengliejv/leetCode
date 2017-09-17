@@ -4,6 +4,7 @@ package String;
  * Created by fengliejv on 2017/9/16.
  */
 
+
 public class CountandSay38 {
     public String countAndSay(int n) {
         if(n==1){
