@@ -4,9 +4,9 @@
 import String.*;
 public class Test {
     public static void main(String[] args) {
-        RepeatedSubstringPattern459 jr = new RepeatedSubstringPattern459();
+        ValidPalindrome125 jr = new ValidPalindrome125();
        // Solution solution = jr.new Solution();
-        System.out.println(jr.repeatedSubstringPattern("abcabcabcabc"));
+        System.out.println(jr.isPalindrome("ab"));
 
 
 
