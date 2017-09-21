@@ -4,9 +4,9 @@
 import String.*;
 public class Test {
     public static void main(String[] args) {
-        LengthofLastWord58 jr = new LengthofLastWord58();
+        RepeatedSubstringPattern459 jr = new RepeatedSubstringPattern459();
        // Solution solution = jr.new Solution();
-        System.out.println(jr.lengthOfLastWord(""));
+        System.out.println(jr.repeatedSubstringPattern("abcabcabcabc"));
 
 
 
