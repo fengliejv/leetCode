@@ -4,9 +4,9 @@
 import String.*;
 public class Test {
     public static void main(String[] args) {
-        ValidPalindrome125 jr = new ValidPalindrome125();
+        ValidPalindromeII680 jr = new ValidPalindromeII680();
        // Solution solution = jr.new Solution();
-        System.out.println(jr.isPalindrome("ab"));
+        System.out.println(jr.validPalindrome("aba"));
 
 
 
