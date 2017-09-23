@@ -3,6 +3,7 @@ package tree;
 /**
  * Created by fengliejv on 2017/9/23.
  */
+// top down approach  todo: dfs o(n)
 public class BalancedBinaryTree110 {
     public boolean isBalanced(TreeNode root) {
         if(root==null){
