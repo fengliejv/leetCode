@@ -5,7 +5,7 @@ import java.math.BigInteger;
 /**
  * Created by fengliejv on 2017/9/22.
  */
-//todo
+
 public class Sqrt69 {
 //    public int mySqrt(int x){
 //        return (int) Math.sqrt(x);

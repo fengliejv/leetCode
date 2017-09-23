@@ -6,9 +6,9 @@ import math.Sqrt69;
 
 public class Test {
     public static void main(String[] args) {
-        Sqrt69 jr = new Sqrt69();
+        NumberofSegmentsinaString434 jr = new NumberofSegmentsinaString434();
        // Solution solution = jr.new Solution();
-        System.out.println(jr.mySqrt(4));
+        System.out.println(jr.countSegments("    foo    bar  "));
 
 
 
