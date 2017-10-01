@@ -5,7 +5,6 @@ import java.util.Stack;
 /**
  * Created by fengliejv on 2017/10/1.
  */
-//todo
 public class ImplementQueueusingStacks232 {
 
     Stack<Integer> pushstack = new Stack();
