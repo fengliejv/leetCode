@@ -5,6 +5,25 @@ package math;
  */
 //todo
 public class PalindromeNumber9 {
+    public boolean isPalindrome(int x) {
+        if(x<0){
+            return false;
+        }
+        if(x<10){
+            return true;
+        }
+        int xx = x;
+        int rever = 0;
+        while (xx>0){
+            rever=rever*10+xx%10;
+            xx=xx/10;
+        }
+        if(x==rever){
+            return true;
+        }else {
+            return false;
+        }
+    }
 //    public boolean isPalindrome(int x) {
 //        if(x<0){
 //            return false;

@@ -13,8 +13,8 @@ import tree.TreeNode;
 public class Test {
     public static void main(String[] args) {
        // System.out.println("hehe");
-        NthDigit400 jr = new NthDigit400();
-        System.out.println(jr.findNthDigit(231));
+        PalindromeNumber9 jr = new PalindromeNumber9();
+        System.out.println(jr.isPalindrome(232));
        // Solution solution = jr.new Solution();
         //System.out.println(jr.findTilt());
 
