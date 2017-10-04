@@ -2,6 +2,7 @@
  * Created by fengliejv on 2017/9/11.
  */
 import String.*;
+import array.MaximumProductSubarray152;
 import math.NthDigit400;
 import math.PalindromeNumber9;
 import math.Sqrt69;
@@ -12,11 +13,10 @@ import tree.TreeNode;
 
 public class Test {
     public static void main(String[] args) {
-       // System.out.println("hehe");
-        PalindromeNumber9 jr = new PalindromeNumber9();
-        System.out.println(jr.isPalindrome(232));
-       // Solution solution = jr.new Solution();
-        //System.out.println(jr.findTilt());
+        int[] a = new int[]{-4,-3,-2};
+        MaximumProductSubarray152 jr = new MaximumProductSubarray152();
+        System.out.println(jr.maxProduct(a));
+
 
 
 
