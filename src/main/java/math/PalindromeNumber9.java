@@ -3,7 +3,6 @@ package math;
 /**
  * Created by fengliejv on 2017/9/23.
  */
-//todo
 public class PalindromeNumber9 {
     public boolean isPalindrome(int x) {
         if(x<0){
