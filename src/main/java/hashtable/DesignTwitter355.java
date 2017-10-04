@@ -5,7 +5,7 @@ package hashtable;
  */
 
 import java.util.*;
-//todo
+
 
 /**
  * Your Twitter object will be instantiated and called as such:
