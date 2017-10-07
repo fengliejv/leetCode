@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 //todo
 public class MaximumProductSubarray152 {
-//    public int maxProduct(int[] nums) {
+    //    public int maxProduct(int[] nums) {
 //        if (nums.length == 0) {
 //            return 0;
 //        }
@@ -24,4 +24,24 @@ public class MaximumProductSubarray152 {
 //        }
 //        return max;
 //    }
+    public int maxProduct(int[] nums) {
+        if (nums.length == 0) {
+            return 0;
+        }
+        int maxAll = nums[0];
+        int max = nums[0];
+        int min = nums[0];
+        for(int i=1;i<nums.length;i++){
+            if(nums[i]<0){
+                int a = max;
+                max = min;
+                min = a;
+            }
+            max = nums[i]>max*nums[i]?nums[i]:max*nums[i];
+            min = nums[i]<min*nums[i]?nums[i]:min*nums[i];
+            maxAll=maxAll>max?maxAll:max;
+        }
+
+        return maxAll;
+    }
 }
