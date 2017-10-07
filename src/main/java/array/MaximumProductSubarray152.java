@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by fengliejv on 2017/10/1.
  */
-//todo
+
 public class MaximumProductSubarray152 {
     //    public int maxProduct(int[] nums) {
 //        if (nums.length == 0) {
