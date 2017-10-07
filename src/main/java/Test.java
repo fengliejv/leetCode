@@ -3,6 +3,7 @@
  */
 import String.*;
 import array.MaximumProductSubarray152;
+import di.HouseRobberII213;
 import math.CountPrimes204;
 import math.NthDigit400;
 import math.PalindromeNumber9;
@@ -14,8 +15,8 @@ import tree.TreeNode;
 
 public class Test {
     public static void main(String[] args) {
-        CountPrimes204 jr = new CountPrimes204();
-        System.out.println(jr.countPrimes(499979));
+        HouseRobberII213 jr = new HouseRobberII213();
+        System.out.println(jr.rob(new int[]{1,2,1,1}));
 
 
 
