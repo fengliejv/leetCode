@@ -30,11 +30,9 @@ public class BinaryTreePaths257 {
             return;
         }
         if(treeNode.left!=null){
-
             addString(treeNode.left, string+"->" );
         }
         if(treeNode.right!=null){
-
             addString(treeNode.right, string+"->" );
         }
     }
