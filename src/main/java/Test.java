@@ -8,15 +8,16 @@ import math.CountPrimes204;
 import math.NthDigit400;
 import math.PalindromeNumber9;
 import math.Sqrt69;
-import tree.BinaryTreeTilt563;
-import tree.MyTree;
-import tree.Tree;
-import tree.TreeNode;
+import tree.*;
+//import tree.Bit
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Test {
     public static void main(String[] args) {
-        HouseRobberII213 jr = new HouseRobberII213();
-        System.out.println(jr.rob(new int[]{1,2,1,1}));
+        TreeNode node = TreeNode.createBinTree(new int[]{1,4,5,4,4,5});
+        LongestUnivaluePath687 jr = new LongestUnivaluePath687();
+        System.out.println(jr.longestUnivaluePath(node));
 
 
 
@@ -24,4 +25,7 @@ public class Test {
 
 
     }
+
+
+
 }
