@@ -6,7 +6,7 @@ package tree;
 public class MaximumBinaryTree654 {
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         if(nums.length==0){
-            return new TreeNode();
+            return null;
         }
         TreeNode root = new TreeNode(nums[0]);
         for (int i = 1; i < nums.length; i++) {
