@@ -13,22 +13,31 @@ public class LongestUnivaluePath687 {
         if(root==null){
             return 0;
         }
-        int left = longestUnivaluePath(root.left);
-        int right = longestUnivaluePath(root.right);
+        int val = root.val;
+        int left = longestUnivaluePath1(root.left);
+        int right = longestUnivaluePath1(root.right);
         int count =0;
+
         if(root.left!=null){
             if(root.val==root.left.val){
-                count=count+left+1;
+                left++;
+                count=count+left;
+            }else {
+                left=0;
             }
         }
         if(root.right!=null){
             if(root.val==root.right.val){
-                count=count+right+1;
+                right++;
+                count=count+right;
+            }else {
+                right=0;
             }
         }
+
         if(count>max){
             max=count;
         }
-        return count;
+        return Math.max(left,right);
     }
 }
