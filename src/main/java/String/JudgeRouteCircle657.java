@@ -5,7 +5,7 @@ import java.util.HashMap;
 /**
  * Created by fengliejv on 2017/8/30.
  */
-public class JudgeRouteCircle {
+public class JudgeRouteCircle657 {
     class Solution {
         public boolean judgeCircle(String moves) {
             char[] move = moves.toCharArray();
@@ -44,10 +44,5 @@ public class JudgeRouteCircle {
             }
         }
     }
-    public static void main(String[] args) {
-//        JudgeRouteCircle jr = new JudgeRouteCircle();
-//        Solution solution = jr.new Solution();
-//        System.out.println(solution.judgeCircle("LL"));
-        System.out.println(new JudgeRouteCircle().new Solution().judgeCircle("LL"));
-    }
+
 }

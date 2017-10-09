@@ -4,7 +4,7 @@ package tree;
  * Created by fengliejv on 2017/9/6.
  */
 //有个坑，如果 t1是个null值，对其赋值，返回的还是null值
-public class MergeTwoBinaryTrees {
+public class MergeTwoBinaryTrees617 {
     /**
      * Definition for a binary tree node.
      * public class TreeNode {
@@ -50,11 +50,5 @@ public class MergeTwoBinaryTrees {
 
     }
 
-    public static void main(String[] args) {
-        TreeNode t1 = null;
-        TreeNode t2 = new TreeNode(1);
-        TreeNode t3 = new MergeTwoBinaryTrees().new Solution().mergeTrees(t1,t2);
-        System.out.println(t3);
-    }
 
 }
