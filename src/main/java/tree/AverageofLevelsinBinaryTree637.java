@@ -6,6 +6,7 @@ import java.util.List;
 /**
  * Created by fengliejv on 2017/10/9.
  */
+//todo
 public class AverageofLevelsinBinaryTree637 {
     public List<Double> averageOfLevels(TreeNode root) {
         ArrayList<TreeNode> list = new ArrayList<TreeNode>();
