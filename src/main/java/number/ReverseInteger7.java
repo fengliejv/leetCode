@@ -30,7 +30,6 @@ public class ReverseInteger7 {
             //System.out.println(returns);
         }
         catch (Exception e) {
-            // TODO: handle exception
             //	System.out.println(e.toString());
             returns= 0;
         }
