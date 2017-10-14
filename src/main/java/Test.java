@@ -3,6 +3,8 @@
  */
 import map.MaxAreaofIsland695;
 import map.SurroundedRegions130;
+import math.ListNode;
+import math.PalindromeLinkedList234;
 import tree.*;
 //import tree.Bit
 
@@ -10,22 +12,17 @@ import tree.*;
 public class Test {
     public static void main(String[] args) {
         int[][] grifd= new int[][]{{1,1,0,0,0},{1,1,0,0,0},{0,0,0,1,1},{0,0,0,1,1}};
-        char[][] board = new char[][]{
-                {'X','X','X','X','X','X','X','X'},
-                {'X','O','X','X','X','O','X','X'},
-                {'X','O','O','X','X','O','O','X'},
-                {'X','O','X','X','X','O','X','X'}
-        };
-        TreeNode node = TreeNode.createBinTree(new int[]{1,4,5,4,4,5});
-        SurroundedRegions130 jr = new SurroundedRegions130();
-        jr.solve(board);
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board[0].length; j++) {
-                System.out.print(board[i][j]+" ");
-            }
-            System.out.println();
+        int[] a = new int[]{1,2,2,1};
+        ListNode node = new ListNode();
+        ListNode n = node.init(a);
+//        while (n!=null){
+//            System.out.println(n.val);
+//            n=n.next;
+//        }
+        //TreeNode node = TreeNode.createBinTree(new int[]{1,4,5,4,4,5});
+        PalindromeLinkedList234 jr = new PalindromeLinkedList234();
+        System.out.println(jr.isPalindrome(n));
 
-        }
 
 
 
