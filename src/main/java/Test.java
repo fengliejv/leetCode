@@ -4,6 +4,7 @@
 import map.MaxAreaofIsland695;
 import map.SurroundedRegions130;
 import math.*;
+import number.ExcelSheetColumnNumber171;
 import tree.*;
 //import tree.Bit
 
@@ -17,8 +18,8 @@ public class Test {
         String s ="cbaebabacd";
         String t ="abc";
         //TreeNode node = TreeNode.createBinTree(new int[]{1,4,5,4,4,5});
-        FindAllAnagramsinaString438 jr = new FindAllAnagramsinaString438();
-        System.out.println(jr.findAnagrams(s,t));
+        ExcelSheetColumnNumber171 jr = new ExcelSheetColumnNumber171();
+        System.out.println(jr.titleToNumber("AB"));
 
 
 
