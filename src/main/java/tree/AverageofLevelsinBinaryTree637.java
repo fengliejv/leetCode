@@ -1,7 +1,9 @@
 package tree;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * Created by fengliejv on 2017/10/9.
@@ -9,13 +11,20 @@ import java.util.List;
 //todo
 public class AverageofLevelsinBinaryTree637 {
     public List<Double> averageOfLevels(TreeNode root) {
-        ArrayList<TreeNode> list = new ArrayList<TreeNode>();
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        ArrayList<Integer> value = new ArrayList<>();
         List<Double> result = new ArrayList<>();
-        list.add(root);
-        calculatr(list,result);
+        if (root != null) {
+            queue.offer(root);
+            while (queue.size() != 0) {
+                TreeNode nowNode = queue.poll();
+                value.add(nowNode.val);
+                if (nowNode.left != null)
+                    queue.offer(nowNode.left);
+                if (nowNode.right != null)
+                    queue.offer(nowNode.right);
+            }
+        }
         return result;
-    }
-    private void calculatr(ArrayList<TreeNode> list,List<Double> result){
-
     }
 }

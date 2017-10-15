@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by fengliejv on 2017/10/15.
  */
-//todo : slide window method is excellent
+// slide window method is excellent
 public class FindAllAnagramsinaString438 {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> list = new ArrayList<>();
