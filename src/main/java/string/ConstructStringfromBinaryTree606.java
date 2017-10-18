@@ -1,4 +1,4 @@
-package String;
+package string;
 
 import tree.TreeNode;
 

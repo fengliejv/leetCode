@@ -1,4 +1,4 @@
-package String;
+package string;
 
 import java.math.BigInteger;
 
@@ -12,7 +12,7 @@ public class AddBinary67 {
         return anum.add(bnum).toString(2);
     }
     //输入的数字太大，会越界
-//    public String addBinary(String a, String b) {
+//    public string addBinary(string a, string b) {
 //        Long aInt = Long.parseLong(a,2);
 //        Long bInt = Long.parseLong(b,2);
 //        return Long.toBinaryString(aInt+bInt);

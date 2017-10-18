@@ -1,6 +1,5 @@
-package String;
+package string;
 
-import java.util.HashMap;
 import java.util.Stack;
 
 /**
@@ -44,7 +43,7 @@ public class ValidParentheses20 {
         }
         return ' ';
     }
-//    public boolean isValid(String s) {
+//    public boolean isValid(string s) {
 //
 //        char[] chars = s.toCharArray();
 //        HashMap<Character,Integer> hashMap = new HashMap<Character, Integer>();

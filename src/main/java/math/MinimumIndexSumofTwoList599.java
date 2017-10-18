@@ -6,8 +6,8 @@ import java.util.*;
  * Created by fengliejv on 2017/10/4.
  */
 public class MinimumIndexSumofTwoList599 {
-//    public String[] findRestaurant(String[] list1, String[] list2) {
-//        HashMap<String,Integer> list1map = new HashMap<>();
+//    public string[] findRestaurant(string[] list1, string[] list2) {
+//        HashMap<string,Integer> list1map = new HashMap<>();
 //        ArrayList<Mapp> mapps = new ArrayList<>();
 //        for (int i = 0; i < list1.length; i++) {
 //            list1map.put(list1[i],i);
@@ -19,7 +19,7 @@ public class MinimumIndexSumofTwoList599 {
 //            }
 //        }
 //        Collections.sort(mapps,new Compp() );
-//        ArrayList<String> arrayList = new ArrayList<>();
+//        ArrayList<string> arrayList = new ArrayList<>();
 //        int a = mapps.get(0).index;
 //        //arrayList.add(mapps.get(0).val);
 //        for (Mapp mapp:mapps
@@ -30,8 +30,8 @@ public class MinimumIndexSumofTwoList599 {
 //                break;
 //        }
 //        int i=0;
-//        String[] strings = new String[arrayList.size()];
-//        for (String str:arrayList
+//        string[] strings = new string[arrayList.size()];
+//        for (string str:arrayList
 //             ) {
 //            strings[i]=str;
 //            i++;
@@ -46,9 +46,9 @@ public class MinimumIndexSumofTwoList599 {
 //    }
 //
 //    class Mapp{
-//        public String val;
+//        public string val;
 //        public int index;
-//        public Mapp(String val,int index){
+//        public Mapp(string val,int index){
 //            this.val = val;
 //            this.index = index;
 //        }

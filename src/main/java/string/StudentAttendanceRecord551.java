@@ -1,6 +1,4 @@
-package String;
-
-import java.util.HashMap;
+package string;
 
 /**
  * Created by fengliejv on 2017/9/11.

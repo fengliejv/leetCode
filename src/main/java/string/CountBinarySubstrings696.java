@@ -1,4 +1,4 @@
-package String;
+package string;
 
 /**
  * Created by fengliejv on 2017/10/17.
@@ -38,7 +38,7 @@ public class CountBinarySubstrings696 {
 
 
     //method 1
-//    public int countBinarySubstrings(String s) {
+//    public int countBinarySubstrings(string s) {
 //        if(s.length()<2){
 //            return 0;
 //        }

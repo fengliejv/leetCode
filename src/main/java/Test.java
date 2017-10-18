@@ -7,6 +7,7 @@ import map.SurroundedRegions130;
 import math.*;
 import number.ExcelSheetColumnNumber171;
 import number.ExcelSheetColumnTitle168;
+import string.RepeatedStringMatch686;
 import tree.*;
 //import tree.Bit
 
@@ -20,16 +21,9 @@ public class Test {
         String s ="cbaebabacd";
         String t ="abc";
         //TreeNode node = TreeNode.createBinTree(new int[]{1,4,5,4,4,5});
-        ImageSmoother661 jr = new ImageSmoother661();
+        RepeatedStringMatch686 jr = new RepeatedStringMatch686();
+        System.out.println(jr.repeatedStringMatch("aa","a"));
 
-        int[][] res = jr.imageSmoother(grifd);
-        for (int i = 0; i < res.length; i++) {
-            for (int j = 0; j < res[0].length; j++) {
-                System.out.print(res[i][j]);
-            }
-            System.out.println();
-
-        }
 
 
 

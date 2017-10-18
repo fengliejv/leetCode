@@ -1,16 +1,11 @@
-package String;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
+package string;
 
 /**
  * Created by fengliejv on 2017/9/17.
  */
 
 public class ValidPalindrome125 {
-    //    public boolean isPalindrome(String s) {
+    //    public boolean isPalindrome(string s) {
 //        s= s.trim();
 //        if(s.length()==0){
 //            return true;

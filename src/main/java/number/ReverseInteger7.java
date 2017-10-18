@@ -24,7 +24,7 @@ public class ReverseInteger7 {
             input.append(res);
         }
         try{
-//			String a =  input.toString();
+//			string a =  input.toString();
 //			System.out.print(a);
             returns= Integer.parseInt(input.toString());
             //System.out.println(returns);

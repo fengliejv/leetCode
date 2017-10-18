@@ -43,7 +43,7 @@ public class Sqrt69 {
 
 
 //public int mySqrt(int x) {
-//    BigInteger bigInteger = new BigInteger(String.valueOf((long)(x)));
+//    BigInteger bigInteger = new BigInteger(string.valueOf((long)(x)));
 //    bigInteger = bigInteger.multiply(bigInteger);
 //
 //    return bigInteger.intValue();

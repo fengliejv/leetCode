@@ -1,7 +1,4 @@
-package String;
-
-import java.util.ArrayList;
-import java.util.Arrays;
+package string;
 
 /**
  * Created by fengliejv on 2017/9/7.
