@@ -2,6 +2,7 @@
  * Created by fengliejv on 2017/9/11.
  */
 import array.ImageSmoother661;
+import array.PascalsTriangleII119;
 import map.MaxAreaofIsland695;
 import map.SurroundedRegions130;
 import math.*;
@@ -21,8 +22,8 @@ public class Test {
         String s ="cbaebabacd";
         String t ="abc";
         //TreeNode node = TreeNode.createBinTree(new int[]{1,4,5,4,4,5});
-        RepeatedStringMatch686 jr = new RepeatedStringMatch686();
-        System.out.println(jr.repeatedStringMatch("aa","a"));
+        PascalsTriangleII119 jr = new PascalsTriangleII119();
+        System.out.println(jr.getRow(3));
 
 
 
