@@ -9,7 +9,7 @@ import java.util.HashSet;
  */
 
 public class ContainsDuplicateII219 {
-    //if use ArrayList ,will time out ,because of the binary search in it
+    //if use ArrayList ,will time out ,because of the binary searchandsort in it
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         if(k==0||nums.length==0){
             return false;

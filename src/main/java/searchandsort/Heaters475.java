@@ -1,4 +1,4 @@
-package search;
+package searchandsort;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
  * Created by fengliejv on 2017/9/10.
  */
 
-/*binary search nlgn complex
+/*binary searchandsort nlgn complex
 * */
 public class Heaters475 {
 

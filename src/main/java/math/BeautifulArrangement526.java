@@ -13,13 +13,13 @@ public class BeautifulArrangement526 {
 //        int count =1;
 //        for (int i = nums.length-1; i >-1 ; i++) {
 //            for (int j = i; j >-1 ; j++) {
-//                count =count+ search(i,j,nums);
+//                count =count+ searchandsort(i,j,nums);
 //            }
 //
 //        }
 //    }
 //
-//    private int search(int stau,int[] nums){
+//    private int searchandsort(int stau,int[] nums){
 //
 //    }
 }
