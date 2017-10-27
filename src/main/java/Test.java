@@ -11,6 +11,8 @@ import number.ExcelSheetColumnNumber171;
 import number.ExcelSheetColumnTitle168;
 import string.RepeatedStringMatch686;
 import tree.*;
+
+import java.util.TreeMap;
 //import tree.Bit
 
 
@@ -32,12 +34,7 @@ public class Test {
 //        System.out.println(jr.findKthLargest(a,8));
 //        System.out.println(jr.findKthLargest(b,1));
 //        System.out.println(jr.findKthLargest(c,3));
-        Integer i = 1;
-        if(i==1){
-            System.out.println("OK");
-        }else {
-            System.out.println("hehe");
-        }
+
 
 
 
