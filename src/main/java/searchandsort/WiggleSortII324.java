@@ -3,7 +3,6 @@ package searchandsort;
 /**
  * Created by fengliejv on 2017/10/24.
  */
-//todo see the explain
 public class WiggleSortII324 {
     public void wiggleSort(int[] nums) {
         int median = findKthLargest(nums, (nums.length + 1) / 2);
