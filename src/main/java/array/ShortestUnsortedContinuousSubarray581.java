@@ -23,7 +23,6 @@ public class ShortestUnsortedContinuousSubarray581 {
                 num=nums[i];
             }
         }
-        
         return  end>begin?end-begin+1:0;
     }
 }

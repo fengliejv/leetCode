@@ -19,18 +19,19 @@ import java.util.TreeMap;
 
 public class Test {
     public static void main(String[] args) {
-        int[][] grifd= new int[][]{{1,1,1},{1,0,1},{1,1,1}};
-        int[] a = new int[]{1,12,-5,-6,50,3};
-        int[] b = new int[]{-1,2,0};
-        int[] c = new int[]{4,3,2,1};
-        int num  =2126753390;
-        ListNode node = new ListNode();
-        ListNode n = node.init(a);
-        String s ="cbaebabacd";
-        String t ="abc";
-        //TreeNode node = TreeNode.createBinTree(new int[]{1,4,5,4,4,5});
-//        MaximumAverageSubarrayI643 jr = new MaximumAverageSubarrayI643();
-//        System.out.println(jr.findMaxAverage(a,4));
+
+//        int[][] grifd= new int[][]{{1,1,1},{1,0,1},{1,1,1}};
+//        int[] a = new int[]{1,12,-5,-6,50,3};
+//        int[] b = new int[]{-1,2,0};
+//        int[] c = new int[]{4,3,2,1};
+//        int num  =2126753390;
+//        ListNode node = new ListNode();
+//        ListNode n = node.init(a);
+//        String s ="cbaebabacd";
+//        String t ="abc";
+        TreeNode node = TreeNode.createBinTree(new int[]{3,9,20,15,7});
+        AverageofLevelsinBinaryTree637 jr = new AverageofLevelsinBinaryTree637();
+        System.out.println(jr.averageOfLevels(node));
 
 
 

@@ -1,30 +1,40 @@
 package tree;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * Created by fengliejv on 2017/10/9.
  */
-//todo
+
 public class AverageofLevelsinBinaryTree637 {
     public List<Double> averageOfLevels(TreeNode root) {
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        ArrayList<Integer> value = new ArrayList<>();
-        List<Double> result = new ArrayList<>();
-        if (root != null) {
-            queue.offer(root);
-            while (queue.size() != 0) {
-                TreeNode nowNode = queue.poll();
-                value.add(nowNode.val);
-                if (nowNode.left != null)
-                    queue.offer(nowNode.left);
-                if (nowNode.right != null)
-                    queue.offer(nowNode.right);
+        if(root==null){
+            return new ArrayList<>();
+        }
+        List<Double> res = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        calcu(queue,res);
+        return res;
+    }
+    private void calcu(Queue<TreeNode> nodes,List<Double> res){
+        Queue<TreeNode> queue = new LinkedList<>();
+        double sum = 0;
+        int length = nodes.size();
+        while (nodes.size()!=0){
+            TreeNode node = nodes.poll();
+            sum+=node.val;
+            if(node.left!=null){
+                queue.add(node.left);
+            }
+            if(node.right!=null){
+                queue.add(node.right);
             }
         }
-        return result;
+
+        res.add(sum/length);
+        if(queue.size()!=0){
+            calcu(queue,res);
+        }
     }
 }
