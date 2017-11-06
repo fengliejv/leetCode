@@ -29,21 +29,19 @@ public class Test {
 //        ListNode n = node.init(a);
 //        String s ="cbaebabacd";
 //        String t ="abc";
-        TreeNode node = TreeNode.createBinTree(new int[]{3,9,20,15,7});
-        AverageofLevelsinBinaryTree637 jr = new AverageofLevelsinBinaryTree637();
-        System.out.println(jr.averageOfLevels(node));
+        TreeNode node = TreeNode.createBinTree(new int[]{1,0,2});
+        TrimaBinarySearchTree669 jr = new TrimaBinarySearchTree669();
+        TreeNode treeNode =jr.trimBST(node,1,2);
+        printTree(treeNode);
 
-
-
-
-
-
-
-
-
-
-
-
+    }
+    private static  void printTree(TreeNode node){
+        if(node==null){
+            return;
+        }
+        System.out.println(node.val);
+        printTree(node.left);
+        printTree(node.right);
     }
 
 
