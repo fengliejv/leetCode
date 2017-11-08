@@ -30,9 +30,8 @@ public class Test {
 //        String s ="cbaebabacd";
 //        String t ="abc";
         TreeNode node = TreeNode.createBinTree(new int[]{1,0,2});
-        TrimaBinarySearchTree669 jr = new TrimaBinarySearchTree669();
-        TreeNode treeNode =jr.trimBST(node,1,2);
-        printTree(treeNode);
+        ReverseBits190 jr = new ReverseBits190();
+//        System.out.println(jr.reverseBits(   ));
 
     }
     private static  void printTree(TreeNode node){
