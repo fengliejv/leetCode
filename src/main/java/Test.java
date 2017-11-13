@@ -30,7 +30,8 @@ public class Test {
 //        String s ="cbaebabacd";
 //        String t ="abc";
         TreeNode node = TreeNode.createBinTree(new int[]{1,0,2});
-        ReverseBits190 jr = new ReverseBits190();
+        BinaryNumberwithAlternatingBits693 jr = new BinaryNumberwithAlternatingBits693();
+        System.out.println(jr.hasAlternatingBits(10));
 //        System.out.println(jr.reverseBits(   ));
 
     }
