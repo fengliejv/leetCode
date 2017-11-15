@@ -27,8 +27,8 @@ public class Test {
 //        String s ="cbaebabacd";
 //        String t ="abc";
         TreeNode node = TreeNode.createBinTree(new int[]{1,0,2});
-        FindPivotIndex724 jr = new FindPivotIndex724();
-        System.out.println(jr.pivotIndex(a));
+        LargestPalindromeProduct479 jr = new LargestPalindromeProduct479();
+        System.out.println(jr.constructRectangle(5)[0]);
 //        System.out.println(jr.reverseBits(   ));
 
     }
