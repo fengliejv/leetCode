@@ -1,16 +1,8 @@
 /**
  * Created by fengliejv on 2017/9/11.
  */
-import array.*;
-import map.MaxAreaofIsland695;
-import map.SurroundedRegions130;
-import math.*;
-import number.ExcelSheetColumnNumber171;
-import number.ExcelSheetColumnTitle168;
-import string.RepeatedStringMatch686;
+import searchandsort.RelativeRanks506;
 import tree.*;
-
-import java.util.TreeMap;
 //import tree.Bit
 
 
@@ -27,8 +19,8 @@ public class Test {
 //        String s ="cbaebabacd";
 //        String t ="abc";
         TreeNode node = TreeNode.createBinTree(new int[]{1,0,2});
-        LargestPalindromeProduct479 jr = new LargestPalindromeProduct479();
-        System.out.println(jr.constructRectangle(5)[0]);
+        RelativeRanks506 jr = new RelativeRanks506();
+        System.out.println(jr.findRelativeRanks(a));
 //        System.out.println(jr.reverseBits(   ));
 
     }
