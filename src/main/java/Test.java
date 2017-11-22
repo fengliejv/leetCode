@@ -2,6 +2,7 @@
  * Created by fengliejv on 2017/9/11.
  */
 import array.SetMatrixZeroes73;
+import math.DivideTwoIntegers29;
 import searchandsort.RelativeRanks506;
 import tree.*;
 //import tree.Bit
@@ -20,9 +21,9 @@ public class Test {
 //        String s ="cbaebabacd";
 //        String t ="abc";
         TreeNode node = TreeNode.createBinTree(new int[]{1,0,2});
-        SetMatrixZeroes73 jr = new SetMatrixZeroes73();
-        jr.setZeroes(grifd);
-        System.out.println(grifd);
+        DivideTwoIntegers29 jr = new DivideTwoIntegers29();
+
+        System.out.println( jr.divide(Integer.MIN_VALUE,-1));
 //        System.out.println(jr.reverseBits(   ));
 
     }
