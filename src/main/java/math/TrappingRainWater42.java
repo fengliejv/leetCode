@@ -5,4 +5,7 @@ package math;
  */
 //todo
 public class TrappingRainWater42 {
+//    public int trap(int[] height) {
+//
+//    }
 }
