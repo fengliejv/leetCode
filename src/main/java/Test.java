@@ -4,6 +4,7 @@
 import array.Permutations46;
 import array.SetMatrixZeroes73;
 import math.DivideTwoIntegers29;
+import math.PerfectSquares279;
 import math.TrappingRainWater42;
 import math.UglyNumberII264;
 import searchandsort.RelativeRanks506;
@@ -15,7 +16,7 @@ public class Test {
     public static void main(String[] args) {
 
         int[][] grifd= new int[][]{{0},{1}};
-        int[] a = new int[]{0,1,0,2,1,0,1,3,2,1,2,1};
+        int[] a = new int[]{2,0,2};
 //        int[] b = new int[]{-1,2,0};
 //        int[] c = new int[]{4,3,2,1};
 //        int num  =2126753390;
@@ -24,9 +25,9 @@ public class Test {
 //        String s ="cbaebabacd";
 //        String t ="abc";
         TreeNode node = TreeNode.createBinTree(new int[]{1,0,2});
-        UglyNumberII264 jr = new UglyNumberII264();
+        TrappingRainWater42 jr = new TrappingRainWater42();
 
-        System.out.println( jr.nthUglyNumber(10));
+        System.out.println( jr.trap(a));
 
 
 
