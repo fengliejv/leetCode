@@ -1,4 +1,4 @@
-package math;
+package di;
 
 /**
  * Created by fengliejv on 2017/12/3.
