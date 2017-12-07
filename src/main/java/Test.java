@@ -1,6 +1,7 @@
 /**
  * Created by fengliejv on 2017/9/11.
  */
+import array.AsteroidCollision735;
 import array.DungeonGame174;
 import array.Searcha2DMatrixII240;
 import di.PerfectSquares279;
@@ -19,8 +20,8 @@ public class Test {
         int[][] g= new int[][]{{-1},{-1},
 
         };
-        int[] a = new int[]{2,0,2};
-//        int[] b = new int[]{-1,2,0};
+        int[] a = new int[]{5,10,-5};
+        int[] b = new int[]{-2,-2,1,-2};
 //        int[] c = new int[]{4,3,2,1};
 //        int num  =2126753390;
 //        ListNode node = new ListNode();
@@ -28,10 +29,10 @@ public class Test {
 //        String s ="cbaebabacd";
 //        String t ="abc";
         TreeNode node = TreeNode.createBinTree(new int[]{1,0,2});
-        PerfectSquares279 jr = new PerfectSquares279();
+        AsteroidCollision735 jr = new AsteroidCollision735();
 
-        System.out.println( jr.numSquares(12));
-        System.out.println( jr.numSquares(13));
+        System.out.println( jr.asteroidCollision(a));
+//        System.out.println( jr.numSquares(13));
 
 
 
