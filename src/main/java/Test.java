@@ -4,9 +4,13 @@
 import array.AsteroidCollision735;
 import array.DungeonGame174;
 import array.Searcha2DMatrixII240;
+import array.TrappingRainWaterII407;
 import di.PerfectSquares279;
 import math.TrappingRainWater42;
 import tree.*;
+
+import java.util.PriorityQueue;
+import java.util.TreeMap;
 //import tree.Bit
 
 
@@ -28,10 +32,32 @@ public class Test {
 //        ListNode n = node.init(a);
 //        String s ="cbaebabacd";
 //        String t ="abc";
-        TreeNode node = TreeNode.createBinTree(new int[]{1,0,2});
-        AsteroidCollision735 jr = new AsteroidCollision735();
+        TreeMap map = new TreeMap();
+        map.put(5,5);
+        map.put(3,2);
+        map.put(4,2);
+        map.put(7,2);
+        map.put(9,2);
+        map.put(8,2);
+        map.put(1,2);
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
 
-        System.out.println( jr.asteroidCollision(a));
+int[][] grid = new int[][]{
+        {1, 3, 3, 1, 3, 2},
+        {3, 2, 1, 3, 2, 3},
+        {3, 3, 3, 2, 3, 1}
+};
+int[][] gg = new int[][]{
+        {1,3,3,1,3,2},
+        {3,2,1,3,2,3},
+        {3,3,3,2,3,1}
+};
+//        System.out.println(map.firstKey());
+        TreeNode node = TreeNode.createBinTree(new int[]{1,0,2});
+        TrappingRainWaterII407 jr = new TrappingRainWaterII407();
+//
+//        System.out.println( jr.trapRainWater(gg));
+        System.out.println(jr.trapRainWater(grid));
 //        System.out.println( jr.numSquares(13));
 
 
