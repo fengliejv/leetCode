@@ -8,7 +8,6 @@ import java.util.TreeMap;
 /**
  * Created by fengliejv on 2017/12/3.
  */
-//todo
 public class TrappingRainWaterII407 {
     class Pos{
         int height;
