@@ -12,7 +12,7 @@ public class Interval {
         end = 0;
     }
 
-    Interval(int s, int e) {
+    public Interval(int s, int e) {
         start = s;
         end = e;
     }
