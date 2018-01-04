@@ -4,8 +4,8 @@ package array;
  * Created by fengliejv on 2017/11/30.
  */
 public class Interval {
-    int start;
-    int end;
+    public int start;
+    public int end;
 
     Interval() {
         start = 0;
