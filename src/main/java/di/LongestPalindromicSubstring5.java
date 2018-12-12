@@ -7,6 +7,9 @@ import com.sun.deploy.util.StringUtils;
  */
 public class LongestPalindromicSubstring5 {
     public String longestPalindrome(String s) {
+        if (s.length() == 0 || s.length() == 1) {
+            return s;
+        }
         int n = s.length();
         String res = null;
 
