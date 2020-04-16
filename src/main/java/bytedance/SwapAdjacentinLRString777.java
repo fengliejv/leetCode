@@ -5,6 +5,45 @@ package bytedance;
  */
 public class SwapAdjacentinLRString777 {
     public boolean canTransform(String start, String end) {
+        if (start.length() != end.length()) {
+            return false;
+        }
+        if (!start.replace("X", "").equals(end.replace("X", ""))) {
+            return false;
+        }
+
+        int endRindex = 0;
+        for (int i = 0; i < start.length(); i++) {
+            if(start.charAt(i)=='R'){
+
+                while (end.charAt(endRindex)!='R'){
+                    endRindex++;
+                }
+                if(endRindex<i){
+                    return false;
+                }
+                endRindex++;
+            }
+        }
+        int startLindex = 0;
+        for (int i = 0; i < end.length(); i++) {
+            if(end.charAt(i)=='L'){
+
+                while (start.charAt(startLindex)!='L'){
+                    startLindex++;
+                }
+                if(startLindex<i){
+                    return false;
+                }
+                startLindex++;
+            }
+        }
+        return true;
+
+    }
+
+
+//    public boolean canTransform(String start, String end) {
 
 //        if (start.length() != end.length()) {
 //            return false;
@@ -32,7 +71,7 @@ public class SwapAdjacentinLRString777 {
 //
 //        }
 //
-        return true;
-
-    }
+//        return true;
+//
+//    }
 }
