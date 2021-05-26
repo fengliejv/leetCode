@@ -3,6 +3,7 @@
  */
 
 import array.*;
+import backtracking.combinationSum39;
 import di.CountingBit338;
 import di.PerfectSquares279;
 import di.Triangle120;
@@ -83,11 +84,15 @@ public class Test {
 
 //        System.out.println(jr.reverseBits(   ));
 
-        RemoveNthNodeFromEndOfList19 s = new RemoveNthNodeFromEndOfList19();
-        ListNode result = s.removeNthFromEnd(buildListNode(new int[]{1}),1);
-        while (result!=null){
-            System.out.println(result.val);
-            result = result.next;
+        combinationSum39 s = new combinationSum39();
+        List<List<Integer>> result = s.combinationSum(new int[]{2,3,6,7},7);
+        for (List<Integer> list : result
+             ) {
+            for (Integer i: list
+                 ) {
+                System.out.print(i);
+            }
+            System.out.println();
         }
     }
 
