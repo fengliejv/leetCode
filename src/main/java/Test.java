@@ -3,12 +3,8 @@
  */
 
 import array.*;
-import backtracking.combinationSum39;
-import di.CountingBit338;
-import di.PerfectSquares279;
-import di.Triangle120;
-import math.TrappingRainWater42;
-import number.ThreeSumClosest16;
+import backtracking.Combinations77;
+import greedy.JumpGame55;
 import tree.*;
 
 import java.util.ArrayList;
@@ -84,8 +80,8 @@ public class Test {
 
 //        System.out.println(jr.reverseBits(   ));
 
-        combinationSum39 s = new combinationSum39();
-        List<List<Integer>> result = s.combinationSum(new int[]{2,3,6,7},7);
+        Combinations77 s = new Combinations77();
+        List<List<Integer>> result = s.combine(4,2);
         for (List<Integer> list : result
              ) {
             for (Integer i: list

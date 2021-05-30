@@ -5,27 +5,29 @@ import java.util.Arrays;
 import java.util.List;
 
 public class combinationSum39 {
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        Arrays.sort(candidates);
-        List<List<Integer>> result = new ArrayList<>();
-        backtracking(candidates,0,candidates.length -1,target,result,new ArrayList<>());
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+//        Arrays.sort(candidates);
+        List<List<Integer>> result = new ArrayList();
+        dfs(candidates,0,target,result,new ArrayList<>());
         return result;
+
     }
 
-    private void backtracking(int[] candidates, int i, int j, int target, List<List<Integer>> result,List<Integer> cur) {
-        if(i>j){
-            return;
-        }
+    private void dfs(int[] candidates, int i,int target, List<List<Integer>> result, ArrayList<Object> cur) {
         if(target == 0){
-            result.add(cur);
+            result.add(new ArrayList(cur));
             return;
         }
-        if(target>=candidates[j]){
-            List<Integer> current = new ArrayList<>(cur);
-            current.add(candidates[j]);
-            backtracking(candidates,i,j,target-candidates[j],result,current);
+        if(i==candidates.length){
+            return;
         }
-        backtracking(candidates,i,j-1,target,result,cur);
 
+        dfs(candidates,i+1,target,result,cur);
+
+        if(target>=candidates[i]){
+            cur.add(candidates[i]);
+            dfs(candidates,i+1,target-candidates[i],result,cur);
+            cur.remove(cur.size()-1);
+        }
     }
 }
